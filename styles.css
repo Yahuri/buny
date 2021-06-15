@@ -1,0 +1,22 @@
+html{
+    font: size 12px;
+    font-family:'SegoeUI';
+
+    background:rgb(0, 110, 255);
+    color:seashell;
+}
+
+h1 {
+    color:purple;
+    font-size: 50px;
+    font-family:'Lucida Sans';
+}
+
+.25c7c8771a {
+    margin: 100px 30px 40px;
+}
+
+.content{
+    width: 727px;
+    margin:auto;
+}
