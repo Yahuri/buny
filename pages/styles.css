@@ -23,3 +23,9 @@ h1 {
 .content {
     text-align: center;
 }
+
+.peko-world {
+    font-size: 40px;
+    font-family:'Segoe Script';
+    text-align: center;
+}
