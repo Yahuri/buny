@@ -1,33 +1,37 @@
-html {
-    font-size: 24px;
-    font-family:'Segoe UI';
-    text-align: center;
+body {
+	background-image: url("./buntime-pink-blue.png");
+	background-attachment: fixed;
+	background-position: top;
+}
 
-    background:rgb(0, 110, 255);
-    color:seashell;
+html {
+	font-size: 24px;
+	font-family:'Segoe UI';
+	text-align: center;
+	color:white;
 }
 
 h1 {
-    color:white;
-    font-size: 100px;
-    font-family:'Segoe UI';
-    text-align: center;
-    margin:auto;
-}
-
-.peko {
-    width: 300px;
-    text-align: center;
+	color:white;
+	font-size: 100px;
+	font-family:'Segoe UI';
+	text-align: center;
+	margin: 0px;
 }
 
 .content {
-    text-align: center;
+	text-align: center;
 }
 
 .row {
-    display: flex;
+	display: flex;
 }
 
 .column {
-    flex: 50%;
+	float: left;
+	width: 33.33%; 
+}
+
+img { 
+	border-radius: 5%;
 }

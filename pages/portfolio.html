@@ -2,18 +2,107 @@
     <head>
         <title>yahuri - porfolio</title>
         <meta name="description" content= "portfolio!!"/>
-        <link rel="stylesheet" href="./styles.css"/>
+        <link rel="stylesheet" href="../styles.css"/>
+	<link rel="stylesheet" href="./styles-portfolio.css"/>
+	<script src="./jss-portfolio.js"></script>
     </head>
         <body>
             <div class= portfolio">
 		<a href="../index.html"><img src="../home.png" align="left"/></a>
 		<p></p>
                 <h2>my portfolio C:</h2>
-		<img src="pekoport.jpg"/>
-		<img src="nagatoport.jpg"/>
-		<img src="mochaport.jpg"/>
-		<img src="millieport.jpg"/>
-		<p></p>
+		<div id="myBtnContainer">
+  			<button class="btn active" onclick="filterSelection('all')"> show all</button>&nbsp;
+			<button class="btn" onclick="filterSelection('detail')"> detailed</button>&nbsp;
+			<button class="btn" onclick="filterSelection('simple')"> simple</button>
+		</div>
+		<br>
+		<div class="row">
+  			<div class="column detail">
+    				<div class="content">
+      				<img src="pekoport.jpg" style="width:100%">
+    				</div>
+  			</div>
+			<div class="column detail">
+    				<div class="content">
+      				<img src="nagatoport.jpg" style="width:100%">
+    				</div>
+  			</div>
+			<div class="column detail">
+    				<div class="content">
+      				<img src="eugenport.jpg" style="width:100%">
+    				</div>
+  			</div>
+			<div class="column detail">
+    				<div class="content">
+      				<img src="springfieldport.jpg" style="width:100%">
+    				</div>
+  			</div>
+			<div class="column detail">
+    				<div class="content">
+      				<img src="shenheport.jpg" style="width:100%">
+    				</div>
+  			</div>
+		</div>
+			
+		<div class="row">
+			<div class="column simple">
+    				<div class="content">
+      				<img src="mochaport.jpg" style="width:100%">
+    				</div>
+  			</div>
+			<div class="column simple">
+    				<div class="content">
+      				<img src="millieport.jpg" style="width:100%">
+    				</div>
+  			</div>
+			<div class="column simple">
+    				<div class="content">
+      				<img src="mostimaport.jpg" style="width:100%">
+    				</div>
+  			</div>
+			<div class="column simple">
+    				<div class="content">
+      				<img src="kyoukaport.jpg" style="width:100%">
+    				</div>
+  			</div>
+			<div class="column simple">
+    				<div class="content">
+      				<img src="boxdazaiport.jpg" style="width:100%">
+    				</div>
+  			</div>
+		</div>
+
+		<div class="row">
+			<div class="column simple">
+    				<div class="content">
+      				<img src="balloon1port.jpg" style="width:100%">
+    				</div>
+  			</div>
+			<div class="column simple">
+    				<div class="content">
+      				<img src="rinport.jpg" style="width:100%">
+    				</div>
+  			</div>
+			<div class="column simple">
+    				<div class="content">
+      				<img src="nadeshikoport.jpg" style="width:100%">
+    				</div>
+  			</div>
+			<div class="column simple">
+    				<div class="content">
+      				<img src="balloon2port.jpg" style="width:100%">
+    				</div>
+  			</div>
+			<div class="column simple">
+    				<div class="content">
+      				<img src="wuppoport.jpg" style="width:100%">
+    				</div> 
+		</div>
             </div>
         </body>
+
+	<script>
+		filterSelection("all")
+	</script>
 </html>

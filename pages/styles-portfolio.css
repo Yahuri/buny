@@ -1,0 +1,53 @@
+.content {
+	padding: 0px;
+}
+
+.row {
+	max-width:100%;
+}
+
+.row,
+.row > .column {
+	padding: 8px 16px;
+}
+
+.column {
+	float: left;
+	width: 25%;
+	display: none; 
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.show {
+	display: block;
+}
+
+.btn {
+	border: none;
+	outline: none;
+	padding: 9px 16px;
+	background-color: white;
+	cursor: pointer;
+	font-family:'Segoe UI';
+	color: rgb(0, 110, 255);
+	border-radius: 12px;
+}
+
+.btn:hover {
+	background-color: #ddd;
+}
+
+.btn:active {
+	background-color: rgb(101,60,41);
+	color: white;
+}
+
+.btn:focus {
+	background-color: rgb(101,60,41);
+	color: white;
+}
