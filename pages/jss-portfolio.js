@@ -32,6 +32,23 @@ function RemoveClass(element, name) {
   element.className = arr1.join(" ");
 }
 
+var modal = document.getElementById('myModal');
+var span = document.getElementsByClassName("close")[0];
+span.onclick = function() { 
+	modal.style.display = "none";
+}
+
+var images = document.getElementsByTagName('content');
+var modalImg = document.getElementById("img01");
+var i;
+for (i = 0; i < images.length; i++) {
+	images[i].onclick = function() {
+		modal.style.display = "block";
+		modalImg.src = this.src;
+		modalImg.alt = this.alt;
+	}
+}
+
 var btnContainer = document.getElementById("myBtnContainer");
 var btns = btnContainer.getElementsByClassName("btn");
 for (var i = 0; i < btns.length; i++) {

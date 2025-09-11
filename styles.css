@@ -5,9 +5,9 @@ body {
 	background-image: url("./buntime-pink.png");
 	background-attachment: fixed;
 	background-position: top;
-	background-repeat: no-repeat;
+	background-repeat: repeat-x;
 	background-color:rgb(74,190,249);
-	margin:0;
+	margin:10px;
 	height:100%;
 }
 
