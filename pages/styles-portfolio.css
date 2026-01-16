@@ -64,29 +64,3 @@
 	color: #bbb;
 	cursor: pointer;
 }
-
-.btn {
-	border: none;
-	outline: none;
-	padding: 1%;
-	font-size: 1.5vw;
-	background-color: white;
-	cursor: pointer;
-	font-family:'Sniglet';
-	color: rgb(0, 110, 255);
-	border-radius: 12px;
-}
-
-.btn:hover {
-	background-color: #ddd;
-}
-
-.btn:active {
-	background-color: rgb(101,60,41);
-	color: white;
-}
-
-.btn:focus {
-	background-color: rgb(101,60,41);
-	color: white;
-}

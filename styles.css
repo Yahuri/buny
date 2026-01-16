@@ -28,6 +28,13 @@ h1 {
 	margin: 0px;
 }
 
+h2 {
+	color:white;
+	font-size: 3vw;
+	font-family:'Sniglet';
+	text-align: center;
+}
+
 .content {
 	text-align: center;
 }
@@ -43,4 +50,84 @@ h1 {
 
 img { 
 	border-radius: 5%;
+}
+
+.icon-button {
+	display: inline-flex;
+    	align-items: center; 
+	justify-content: center;
+    	gap: 6px;            
+    	padding: 2%;   
+    	background-color: white;
+    	color: rgb(74, 190, 249);
+    	border: none;
+    	cursor: pointer;
+    	border-radius: 12px;	
+	outline: none;
+	font-size: 2vw;
+	font-family:'Sniglet';
+	width: 100%;
+}
+
+.icon-button img {
+    	width: 3vw;
+}
+
+.icon-button:hover {
+	background-color: #ffccd1;
+	color: white;
+}
+
+.icon-vertical-button {
+	display: inline-flex;
+	flex-direction: column;
+    	align-items: center; 
+	justify-content: center;
+    	gap: 6px;            
+    	padding: 2%;   
+    	background-color: transparent;
+    	color: white;
+    	border: none;
+    	cursor: pointer;
+    	border-radius: 12px;	
+	outline: none;
+	font-size: 3vw;
+	font-family:'Sniglet';
+	width: 70%;
+}
+
+.icon-vertical-button img {
+    	width: 20vw;
+}
+
+.icon-vertical-button:hover {
+	background-color: #ffccd1;
+	color: white;
+}
+
+.btn {
+	border: none;
+	outline: none;
+	padding: 1%;
+	font-size: 1.5vw;
+	background-color: white;
+	cursor: pointer;
+	font-family:'Sniglet';
+	color: rgb(74, 190, 249);
+	border-radius: 12px;
+}
+
+.btn:hover {
+	background-color: #ffccd1;
+	color: white;
+}
+
+.btn:active {
+	background-color: rgb(101,60,41);
+	color: white;
+}
+
+.btn:focus {
+	background-color: rgb(101,60,41);
+	color: white;
 }
